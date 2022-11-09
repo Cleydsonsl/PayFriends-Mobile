@@ -56,6 +56,7 @@ export function SignIn() {
               onChangeText={onChange}
               value={value}
               placeholder='Password'
+              secureTextEntry={true}
             />
           )}
           name='password'
